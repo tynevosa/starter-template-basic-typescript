@@ -2,14 +2,9 @@
     "section1": {
         "files": [
             {
-                "url": "assets/background.png",
+                "url": "assets/preload/egg.png",
                 "type": "image",
-                "key": "background"
-            },
-            {
-                "url": "assets/dino.png",
-                "type": "image",
-                "key": "dino"
+                "key": "egg"
             }
         ]
     },

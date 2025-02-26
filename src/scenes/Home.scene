@@ -1,0 +1,201 @@
+{
+    "id": "073f7f08-df62-4bad-91b7-64e0ba61f758",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Home",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1440,
+        "borderHeight": 1024
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "31ea72a8-6bee-4feb-8079-e0dec89b613d",
+            "label": "background",
+            "texture": {
+                "key": "background"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Container",
+            "id": "142fba64-9190-4c18-935b-8a88b0a08e6b",
+            "label": "user_info",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "392a935b-9eee-4a1d-9b6f-8d9b97783275",
+                    "label": "image_1",
+                    "texture": {
+                        "key": "avatar_frame"
+                    },
+                    "x": 53,
+                    "y": 27,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "4daada30-5adf-43a3-81a6-99c5ba121054",
+                    "label": "image_2",
+                    "texture": {
+                        "key": "name_frame"
+                    },
+                    "x": 199,
+                    "y": 51.779998779296875,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "5d947518-1442-4263-aec2-b56fbfc149cb",
+                    "label": "text_1",
+                    "x": 199,
+                    "y": 114.91000366210938,
+                    "text": "AGE",
+                    "fontFamily": "Irish Grover",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "04a773a2-5469-45da-98f9-018c36347a68",
+                    "label": "image_3",
+                    "texture": {
+                        "key": "other_frame"
+                    },
+                    "x": 242,
+                    "y": 108.5999984741211,
+                    "scaleX": 0.83640625,
+                    "scaleY": 0.527,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "d97d4f43-28dc-4747-8e43-09d0bc7e982b",
+                    "label": "image_4",
+                    "texture": {
+                        "key": "status_frame"
+                    },
+                    "x": 297.5799865722656,
+                    "y": 109.76000213623047,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "59debc56-a674-485c-a409-c500b7e2d8f0",
+                    "label": "have_cloth",
+                    "x": 199,
+                    "y": 150.07000732421875,
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "fillColor": "202020",
+                    "width": 49.87,
+                    "height": 49.87
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "1edbc02f-982f-4077-9ed5-fa11d6dd09a4",
+                    "label": "have_house",
+                    "x": 266,
+                    "y": 150.07000732421875,
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "fillColor": "202020",
+                    "width": 49.87,
+                    "height": 49.87
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "63e71624-bcc0-4a76-8a13-1cdafc89dc50",
+                    "label": "have_desire",
+                    "x": 332,
+                    "y": 150.07000732421875,
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "fillColor": "202020",
+                    "width": 49.87,
+                    "height": 49.87
+                },
+                {
+                    "type": "Text",
+                    "id": "928707f5-e4cc-4dc3-b3d2-5fb7ffb6aa68",
+                    "label": "have_cloth",
+                    "x": 204.43,
+                    "y": 205.93,
+                    "text": "CLOTH",
+                    "fontFamily": "Irish Grover",
+                    "fontSize": "14px"
+                },
+                {
+                    "type": "Text",
+                    "id": "4b39f20d-f18c-416c-bd93-da1ee11e87ef",
+                    "label": "have_house",
+                    "x": 268.87,
+                    "y": 205.93,
+                    "text": "HOUSE",
+                    "fontFamily": "Irish Grover",
+                    "fontSize": "14px"
+                },
+                {
+                    "type": "Text",
+                    "id": "0031cb40-d6f5-4cd0-b9db-c6811a4eea20",
+                    "label": "have_desire",
+                    "x": 333.5,
+                    "y": 205.93,
+                    "text": "DESIRE",
+                    "fontFamily": "Irish Grover",
+                    "fontSize": "14px"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "86dcde2a-f6bd-412e-bbdb-fe2a7846f04e",
+            "label": "menu",
+            "x": 664,
+            "y": 46.01,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "b342a3d2-84a1-4efb-b536-5e411fa70cea",
+                    "label": "item",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e126389c-782d-46d3-ae46-f0d262fc3d2d",
+                            "label": "image_5",
+                            "texture": {
+                                "key": "other_frame"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b8625678-e767-41de-8074-480576bcac6e",
+                            "label": "menu_item_notification",
+                            "x": 90,
+                            "y": 38.9900016784668,
+                            "text": "New text"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

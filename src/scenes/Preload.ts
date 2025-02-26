@@ -16,12 +16,10 @@ class Preload extends Phaser.Scene {
 	editorCreate(): void {
 
 		// guapen
-		const guapen = this.add.image(505, 360, "guapen");
-		guapen.scaleX = 0.4;
-		guapen.scaleY = 0.4;
+		this.add.image(589, 538, "egg");
 
 		// progressBar
-		const progressBar = this.add.rectangle(553, 361, 256, 20);
+		const progressBar = this.add.rectangle(687, 539, 400, 40);
 		progressBar.setOrigin(0, 0);
 		progressBar.isFilled = true;
 		progressBar.fillColor = 14737632;
@@ -30,15 +28,15 @@ class Preload extends Phaser.Scene {
 		new PreloadBarUpdaterScript(progressBar);
 
 		// progressBarBg
-		const progressBarBg = this.add.rectangle(553, 361, 256, 20);
+		const progressBarBg = this.add.rectangle(687, 539, 400, 40);
 		progressBarBg.setOrigin(0, 0);
 		progressBarBg.fillColor = 14737632;
 		progressBarBg.isStroked = true;
 
 		// loadingText
-		const loadingText = this.add.text(552, 329, "", {});
+		const loadingText = this.add.text(687, 477, "", {});
 		loadingText.text = "Loading...";
-		loadingText.setStyle({ "color": "#e0e0e0", "fontFamily": "arial", "fontSize": "20px" });
+		loadingText.setStyle({ "color": "#e0e0e0", "fontFamily": "arial", "fontSize": "48px" });
 
 		this.events.emit("scene-awake");
 	}
@@ -51,12 +49,12 @@ class Preload extends Phaser.Scene {
 
 		this.editorCreate();
 
-		this.load.pack("asset-pack", "assets/asset-pack.json");
+		this.load.pack("asset-pack", "assets/home/asset-pack.json");
 	}
 
 	create() {
 
-		this.scene.start("Level");
+		this.scene.start("Home");
 	}
 
 	/* END-USER-CODE */
